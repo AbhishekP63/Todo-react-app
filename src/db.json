@@ -1,0 +1,20 @@
+{
+  "todos": [
+    {
+      "id": "1532",
+      "title": "Javascript",
+      "desc": "prepare for javascript exams",
+      "due": "2026-02-05",
+      "priority": "Medium",
+      "status": "Pending"
+    },
+    {
+      "id": "50e4",
+      "title": "Java",
+      "desc": "Prepare for Mock",
+      "due": "2026-02-09",
+      "priority": "Medium",
+      "status": "Pending"
+    }
+  ]
+}
