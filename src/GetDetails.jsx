@@ -15,15 +15,15 @@ const GetDetails = ({refresh}) => {
 
     return (
         <div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-5 m-3 p-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 m-3 p-10 auto-rows-max items-start">
             {/* <div className="flex flex-wrap gap-4"> */}
                 {
                     state?.map((obj, i) => {
                         // console.log(obj)
                         return (
-                            <div key={i} className='text-white  p-5 border-2 rounded-3xl bg-white/25'>
+                            <div key={i} className='text-white  p-5 border-2 rounded-3xl bg-white/25 break-words whitespace-normal overflow-hidden'>
 
-                                <p>Task-Title:{obj.title}</p>
+                                <p className='break-words line-clamp-3'>Task-Title:{obj.title}</p>
                                 <p>Description:{obj.desc}</p>
                                 <p>Due-Date:{obj.due}</p>
                                 <p>Priority:{obj.priority}</p>
