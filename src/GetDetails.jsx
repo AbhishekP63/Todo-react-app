@@ -21,7 +21,7 @@ const GetDetails = ({refresh}) => {
                     state?.map((obj, i) => {
                         // console.log(obj)
                         return (
-                            <div key={i} className='text-white  p-5 border-3 rounded-3xl bg-white/25 break-words whitespace-normal overflow-hidden hover:border-3 hover:border-black'>
+                            <div key={i} className='text-white  p-5 border-3  rounded-3xl  break-words whitespace-normal overflow-hidden hover:border-3 hover:bg-linear-to-bl from-violet-500 to-fuchsia-500 '>
 
                                 <p className='break-words line-clamp-3 '>Task-Title:{obj.title}</p>
                                 <p>Description:{obj.desc}</p>

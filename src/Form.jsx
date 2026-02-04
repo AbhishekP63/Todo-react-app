@@ -57,7 +57,7 @@ const Form = () => {
         <div className='min-h-screen '>
 
             <div className=" grid place-items-center m-20">
-
+ 
                 <form action="" onSubmit={handleSubmit} className='border-3 text-center font-bold text-white bg-white/15 w-100 h-110 font-sans rounded-4xl m-3 '>
                     <h1 className='text-center font-bold p-2 '>TODO APP</h1>
 
