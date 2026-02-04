@@ -53,14 +53,12 @@ const Form = () => {
 
 
 
-
-
     return (
         <div className='min-h-screen '>
 
             <div className=" grid place-items-center m-20">
 
-                <form action="" onSubmit={handleSubmit} className='border-2 text-center font-bold text-white bg-white/15 w-100 h-110 font-sans rounded-4xl m-3'>
+                <form action="" onSubmit={handleSubmit} className='border-3 text-center font-bold text-white bg-white/15 w-100 h-110 font-sans rounded-4xl m-3 '>
                     <h1 className='text-center font-bold p-2 '>TODO APP</h1>
 
                     <div className='m-4'>
@@ -101,7 +99,7 @@ const Form = () => {
                         </select>
                     </div>
 
-                    <button className="p-3 border rounded-3xl m-4 align-middle">ADD TODO</button>
+                    <button className="p-3 border rounded-3xl m-4 align-middle  hover:text-black hover:border-2  ">ADD TODO</button>
 
                 </form>
             </div>
