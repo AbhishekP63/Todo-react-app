@@ -61,38 +61,38 @@ let handleSubmit = async (e)=>{
              <div className=" grid place-items-center m-20">
 
             <form action="" onSubmit={handleSubmit} className='border-2 text-center font-bold text-white bg-white/15 w-100 h-100 font-sans rounded-4xl m-3'>
-            <h1 className='text-center font-bold p-2 '>TODO LIST</h1>     
+            <h1 className='text-center font-bold p-2 '>TODO APP</h1>     
 
                 <div className='m-4'>
                     <label htmlFor="">Task-Title: </label>
-                    <input type="text" className = "p-1 border rounded-2xl focus:outline-white" placeholder=' 'name='title' onChange={handleChange}/>
+                    <input type="text"  value={state.title} className = "p-1 border rounded-2xl focus:outline-white" placeholder=' 'name='title' onChange={handleChange}/>
                 </div>
 
                 <div className='m-4'>
                     <label htmlFor="">Description: </label>
-                    <input type="textarea" className = "p-1 border rounded-2xl  focus:outline-white" placeholder='' name='desc' onChange={handleChange} />
+                    <input type="textarea" value={state.desc} className = "p-1 border rounded-2xl  focus:outline-white" placeholder='' name='desc' onChange={handleChange} />
                 </div>
 
                 <div className='m-4'>
                     <label htmlFor="">Due-Date: </label>
-                    <input type="date" className = "p-1 border rounded-2xl  bg-white text-black"  name='due' onChange={handleChange}/>
+                    <input type="date"  value={state.due} className = "p-1 border rounded-2xl  bg-white text-black"  name='due' onChange={handleChange}/>
                 </div>
 
                 <div className='m-4'>
                     <label htmlFor="">Priority: </label>
                     <select name="priority" className = "p-1 border rounded-2xl bg-white text-black" id="" onChange={handleChange}>
-                        <option value="">High</option>
-                        <option value="">Medium</option>
-                        <option value="">Low</option>
+                        <option value={state.priority}>Medium</option>
+                        <option value={state.priority}>High</option>
+                        <option value={state.priority}>Low</option>
                     </select>
                 </div>
 
 
                 <div className='m-4'>
                     <label htmlFor="">Status: </label>
-                    <select name="status" className = "p-1 border rounded-2xl bg-white text-black" id="" onChange={handleChange}>
-                        <option value="">Pending</option>
-                        <option value="">Completed</option>
+                    <select name="status"   className = "p-1 border rounded-2xl bg-white text-black" id="" onChange={handleChange}>
+                        <option value={state.status}>Pending</option>
+                        <option value={state.status}>Completed</option>
                     </select>
                 </div>
 
