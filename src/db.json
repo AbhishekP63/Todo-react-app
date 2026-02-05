@@ -2,15 +2,15 @@
   "todos": [
     {
       "id": "1532",
-      "title": "Javascript",
-      "desc": "prepare for javascript exams",
+      "title": "SQl",
+      "desc": "Solve SQL Queries",
       "due": "2026-02-05",
       "priority": "Medium",
       "status": "Pending"
     },
     {
       "id": "50e4",
-      "title": "Java",
+      "title": "Javascript",
       "desc": "Prepare for Mock",
       "due": "2026-02-09",
       "priority": "Medium",
@@ -31,71 +31,6 @@
       "due": "2026-02-04",
       "priority": "Medium",
       "status": ""
-    },
-    {
-      "id": "455f",
-      "title": "",
-      "desc": "",
-      "due": "",
-      "priority": "Medium",
-      "status": "Pending"
-    },
-    {
-      "id": "5dc2",
-      "title": "vnldvl",
-      "desc": "dfdsfds",
-      "due": "",
-      "priority": "",
-      "status": ""
-    },
-    {
-      "id": "9198",
-      "title": "dsvdsf",
-      "desc": "",
-      "due": "",
-      "priority": "Medium",
-      "status": "Pending"
-    },
-    {
-      "id": "4669",
-      "title": "",
-      "desc": "",
-      "due": "",
-      "priority": "Medium",
-      "status": "Pending"
-    },
-
-    {
-      "id": "b134",
-      "title": "kjfbdkjf",
-      "desc": "",
-      "due": "",
-      "priority": "Medium",
-      "status": "Pending"
-    },
-    {
-      "id": "3193",
-      "title": "",
-      "desc": "",
-      "due": "",
-      "priority": "High",
-      "status": "Pending"
-    },
-    {
-      "id": "1217",
-      "title": "",
-      "desc": "dsbfk",
-      "due": "",
-      "priority": "Low",
-      "status": "Completed"
-    },
-    {
-      "id": "e0cf",
-      "title": "",
-      "desc": "",
-      "due": "",
-      "priority": "Medium",
-      "status": "Pending"
     }
   ]
 }
